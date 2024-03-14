@@ -2,9 +2,11 @@
 Multiple architectures for generating bird sounds using BirdCLEF 2023 dataset
 
 ## Usage
-+ Create the environnement
++ Create and activate the environnement (conda needs to be installed), then make the kernel visible in jupyter (not needed if you always launch jupyter notebook from the birdgen env)
   ```bash
   conda env create -f env.yml
+  conda activate birdgen
+  python -m ipykernel install --user --name=birdgen
   ```
 
 + Download the dataset from [https://www.kaggle.com/competitions/birdclef-2023/data](https://www.kaggle.com/competitions/birdclef-2023/data) and put the train_audio folder in the working dir
