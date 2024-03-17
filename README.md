@@ -27,4 +27,4 @@ Multiple architectures for generating bird sounds using BirdCLEF 2023 dataset
 
 + ```NDB.ipynb``` is used to compute JS divergence and Number os statistically Different Beans
   
-+ ```human_eval.ipynb``` launches a website where users can vote for the best audio from a random pair to evaluate which model is better
++ ```human_eval.ipynb``` launches a website where users can vote for the best audio from a random pair to evaluate which model is better ```plot_human_eval.ipynb``` will compute the winrate of each model against the others
